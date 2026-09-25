@@ -50,10 +50,6 @@ charges already present in the original notebook instead of these source files.
 
 3. Run `method2 1.3.ipynb` on whatever list of models you have. It saves `insertions_matrices.json`, `viable_models.json`,
    and `fit_settings.json`. The seed and CKM retry budget are explicit.
-4. Obtain `stable_models.json` from the original stabilization procedure or
-   define and document a replacement. **Do not equate the accepted fit file
-   with stabilized models without this step.** Then run `R-parity_scan.ipynb`.
-   It writes `final_models.json`.
 
 To inspect generation without external data, set `USE_TEST_MODEL = True` and
 `P = 1` in the first notebook. 
