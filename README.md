@@ -30,7 +30,6 @@ Source data:
 | `fieldcharges.json` | Per-model `[tens, fives, [H_down, H_up]]` charge lists |
 | `labels.json` | Model labels aligned with the charge arrays |
 | `higgsnum.json` | Higgs-pair counts used to select the single-Higgs models |
-| `good_pheno_models.json` | Iterable of selected model IDs; its original selection procedure is missing |
 
 The generation notebook selects entries with Higgs-pair count 1 and filters
 all aligned arrays together. With `USE_TEST_MODEL = True`, it uses the explicit
