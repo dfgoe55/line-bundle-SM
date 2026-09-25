@@ -15,7 +15,7 @@ monomials. This repository covers **models with one Higgs pair**.
 | 2a | [compute_killed_vevs0.py](compute_killed_vevs0.py) | Find minimal zero-VEV choices for each model in one batch |
 | 2b | [make_a_unique_killed_vevs_library.ipynb](make_a_unique_killed_vevs_library.ipynb) | Combine the batch results |
 | 3 | [method2 1.3.ipynb](method2%201.3.ipynb) | Fit singlet VEVs, coefficients, and real rotations; save accepted candidates |
-| 4 | [R-parity_scan.ipynb](R-parity_scan.ipynb) | Restore full coordinates, evaluate operator monomials, and export enriched records |
+
 
 
 
@@ -48,10 +48,8 @@ charges already present in the original notebook instead of these source files.
    done
    ```
 
-3. Supply `good_pheno_models.json`, inspect the fitting settings, and run
-   `method2 1.3.ipynb`. It saves `insertions_matrices.json`, `viable_models.json`,
+3. Run `method2 1.3.ipynb` on whatever list of models you have. It saves `insertions_matrices.json`, `viable_models.json`,
    and `fit_settings.json`. The seed and CKM retry budget are explicit.
-   Restart the kernel and run the cells in order to reset the random generator.
 4. Obtain `stable_models.json` from the original stabilization procedure or
    define and document a replacement. **Do not equate the accepted fit file
    with stabilized models without this step.** Then run `R-parity_scan.ipynb`.
