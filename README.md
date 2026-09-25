@@ -1,4 +1,4 @@
-# Compute singlet insertions and flavour scans
+# Compute singlet insertions and scan for realistic fermion masses
 
 Research notebooks for constructing charge-compatible singlet insertions,
 selecting singlet vacuum expectation values (VEVs) to set to zero, fitting
